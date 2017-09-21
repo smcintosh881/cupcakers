@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutCard from './AboutCard'
 import { Grid, Header, Image, Icon } from 'semantic-ui-react'
+import './LandingPage.css'
 
 //TODO: simplify this by maping each object
 const About = () => (
@@ -28,7 +29,7 @@ const About = () => (
            </Grid.Column>
         </Grid.Row>
     		<Grid.Row centered>
-            <Icon size='massive' name='angle down' color='violet' />
+            <Icon disabled id='downIconHover' size='massive' name='angle down' color='violet' />
     		</Grid.Row>
     	</Grid>
     </div>

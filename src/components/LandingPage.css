@@ -4,6 +4,16 @@
 	top: 45%;
 }
 
+#downIconHover:hover {
+    color: #5ab96c;
+    opacity: 1 !important;
+}
+
+.landingPageName{
+	margin-top: -32% !important;
+    padding-bottom: 16% !important;
+}
+
 .extraLargeFont {
 	font-size: 5em !important;
 }

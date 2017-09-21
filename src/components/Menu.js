@@ -16,7 +16,7 @@ export default class NavBar extends Component {
     return (
       <Menu fixed='top'>
         <Menu.Item name='landing' onClick={this.handleItemClick}> 
-          <Image src={require('../../public/logo.png')} verticalAlign='middle' />
+          <Image src='logo.png' verticalAlign='middle' />
         </Menu.Item>
         <Menu.Menu position='right'>
           <Menu.Item className='greenMenuText' name='ABOUT' active={activeItem === 'ABOUT'} onClick={this.handleItemClick} />

@@ -2,13 +2,11 @@ import React from 'react'
 import { Image, Header, Icon, Grid } from 'semantic-ui-react'
 
 import './LandingPage.css'
-//<Icon disabled name='angle right' fitted={true}/>
-//    <Icon className='landingPageArrowButton' size='massive' name='angle double down' />
 
 const Landing = () => (
-  <div id='landing'>
-    <Image src={require('../../public/landing.jpg')} fluid disabled/>
-    <Grid>
+  <div id='landing' >
+    <Image src='landing.jpg' fluid disabled/>
+    <Grid className='landingPageName'>
     	<Grid.Column width={1}/>
     	<Grid.Row centered>
     		<Header className='extraLargeFont' color='violet'>
@@ -16,7 +14,7 @@ const Landing = () => (
     		</Header>
     	</Grid.Row>
     	<Grid.Row centered>
-    		<Icon size='massive' name='angle down' color='violet' />
+    		<Icon id='downIconHover' disabled size='massive' name='angle down' color='violet' onClick={() => document.getElementById('ABOUT').scrollIntoView()}/>
     	</Grid.Row>
     </Grid>
   </div>
