@@ -1,29 +1,16 @@
-.landingPageText {
-	position: absolute;
-	left: 19%;
-	top: 45%;
-}
-
-#downIconHover:hover {
-    color: #5ab96c;
-    opacity: 1 !important;
-}
-
-.landingPageName{
-	margin-top: -32% !important;
-    padding-bottom: 16% !important;
-}
-
 .extraLargeFont {
-	font-size: 5em !important;
+	font-size: 2em !important;
 }
 
-.landingPageArrowButton {
-	position: absolute;
-	left: 42%;
-	top: 65%;
+.largeFont {
+	font-size: 1.5em !important;
 }
 
-.greenMenuText {
-	color: #5ab96c !important;
+.sacramento {
+	font-family: 'Sacramento', cursive;
 }
+
+.strait {
+	font-family: 'Strait', sans-serif;
+}
+
