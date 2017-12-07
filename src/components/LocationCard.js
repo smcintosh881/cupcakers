@@ -11,5 +11,4 @@ export default class AboutCard extends Component {
       </Segment>
     )
   }
-
 }

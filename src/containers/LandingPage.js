@@ -1,11 +1,15 @@
 import React from 'react'
 import Landing from '../components/Landing'
-import AboutCard from '../components/AboutCard'
+import Offerings from '../components/Offerings'
+import Location from '../components/Location'
+import About from '../components/About'
 
 const LandingPage = () => (
   <div>
    	<Landing />
-   	<AboutCard />
+   	<About />
+   	<Location />
+   	<Offerings />
   </div>
 )
 
